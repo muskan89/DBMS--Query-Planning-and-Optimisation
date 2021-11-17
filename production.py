@@ -4,8 +4,6 @@ N = 10
 N_dash=30
 
 new_file = open("productiondata.sql", 'w')
-new_file.write("CREATE TABLE TableProductionCompany(pc_id int,name varchar(255),address varchar(255),PRIMARY KEY (pc_id));")
-new_file.write("\n")
 t=80001
 
 for i in range(1,t):

@@ -4,8 +4,6 @@ N = 10
 
 
 new_file = open("moviedata.sql", 'w')
-new_file.write("CREATE TABLE TableMovie(m_id int,name varchar(255),year int,imdbScore int,prod_company int,foreign key (prod_company) references TableProductionCompany(pc_id),PRIMARY KEY (m_id));")
-new_file.write("\n")
 t=1000001
 #t=101
 

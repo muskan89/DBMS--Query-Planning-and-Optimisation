@@ -3,8 +3,6 @@ import string
 N = 15
 
 new_file = open("actordata.sql", 'w')
-new_file.write("CREATE TABLE TableActor(a_id int,name varchar(255),PRIMARY KEY (a_id));")
-new_file.write("\n")
 t=300001
 
 for i in range(1,t):

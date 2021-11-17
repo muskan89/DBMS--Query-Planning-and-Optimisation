@@ -23,7 +23,7 @@ import random
 import string
 import sys
 
-sys.stdout = open('castingdata.sql', 'a')
+sys.stdout = open('castingdata.sql', 'w')
 num = 10 ** 6
 sin_comma = "'"
 comma = ","

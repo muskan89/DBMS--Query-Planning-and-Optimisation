@@ -4,4 +4,6 @@ CREATE TABLE TableMovie(m_id int,name varchar(255),year int,imdbScore int,prod_c
 CREATE TABLE TableCasting(m_id int,a_id int,foreign key (m_id) references TableMovie(m_id),foreign key (a_id) references TableActor(a_id),PRIMARY KEY (m_id,a_id));
 
 
+Praveen saini
+
 
